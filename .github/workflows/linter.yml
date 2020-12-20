@@ -1,4 +1,3 @@
----
 name: Lint Code Base
 
 on:
@@ -10,7 +9,7 @@ on:
 
 jobs:
   build:
-    name: Lint code base
+    name: Lint Code Base
     runs-on: ubuntu-latest
 
     steps:
