@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'monthly'
+    reviewers:
+      - '2n3g5c9'
+    labels:
+      - 'npm dependencies'
+    commit-message:
+      prefix: 'npm'
+      include: 'scope'
