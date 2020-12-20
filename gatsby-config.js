@@ -1,21 +1,26 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby TypeScript Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need, as well as TypeScript support.`,
     author: `Marc Molina`,
   },
   plugins: [
-    `gatsby-plugin-typescript`,
-    `gatsby-plugin-react-helmet`,
+    // Linting
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-plugin-eslint',
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        test: /\.ts$|\.tsx$/,
+        exclude: /(node_modules|.cache|public)/,
+        stages: ['develop', 'build-javascript'],
+        options: {
+          emitWarning: true,
+          failOnError: false,
+        },
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    // TypeScript
+    `gatsby-plugin-typescript`,
+    // Gatsby & React
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -28,6 +33,16 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-transformer-sharp`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

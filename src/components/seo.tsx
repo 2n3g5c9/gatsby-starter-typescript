@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import PropTypes from 'prop-types'
-import {Helmet} from 'react-helmet'
-import {useStaticQuery, graphql} from 'gatsby'
+import { Helmet } from 'react-helmet'
+import { useStaticQuery, graphql } from 'gatsby'
 
 interface Props {
   description?: string
@@ -10,8 +10,8 @@ interface Props {
   title: string
 }
 
-const SEO = ({description, lang, meta, title}: Props) => {
-  const {site} = useStaticQuery(
+const SEO = ({ description, lang, meta, title }: Props): ReactElement => {
+  const { site } = useStaticQuery(
     graphql`
       query {
         site {
