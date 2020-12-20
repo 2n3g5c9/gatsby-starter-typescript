@@ -1,12 +1,7 @@
 <div align="center">
-  <a href="https://www.gatsbyjs.com" target="_blank">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.typescriptlang.org/" target="_blank">
-    <img alt="TypeScript" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="60" />
-  </a>
+  <img alt="gatsby-starter-typescript" src="./docs/logo.svg" width="150" />
 </div>
+
 <h1 align="center">
   Gatsby's default starter with TypeScript support
 </h1>
@@ -44,4 +39,3 @@
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/2n3g5c9/gatsby-starter-typescript)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/2n3g5c9/gatsby-starter-typescript)
-

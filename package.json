@@ -32,7 +32,8 @@
     "typescript": "^4.1.3"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+	"typescript"
   ],
   "license": "0BSD",
   "scripts": {
