@@ -1,5 +1,16 @@
 version: 2
 updates:
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'monthly'
+    reviewers:
+      - '2n3g5c9'
+    labels:
+      - 'github-actions'
+    commit-message:
+      prefix: 'actions'
+
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
@@ -7,7 +18,7 @@ updates:
     reviewers:
       - '2n3g5c9'
     labels:
-      - 'npm dependencies'
+      - 'npm-dependencies'
     commit-message:
       prefix: 'npm'
       include: 'scope'
