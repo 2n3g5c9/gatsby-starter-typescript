@@ -6,9 +6,7 @@
   Gatsby's default starter with TypeScript support
 </h1>
 
-[![GitHub Super-Linter](https://github.com/2n3g5c9/gatsby-starter-typescript/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
-[![GitHub Action for Gatsby CLI](https://github.com/2n3g5c9/gatsby-starter-typescript/workflows/Build%20Gatsby%20Site/badge.svg)](https://github.com/marketplace/actions/github-action-for-gatsby-cli)
-
+[![GitHub Actions](https://github.com/2n3g5c9/gatsby-starter-typescript/workflows/Automated%20Checks/badge.svg)](https://github.com/2n3g5c9/gatsby-starter-typescript/actions)
 
 ## 🚀 Quick start
 

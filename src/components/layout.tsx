@@ -13,7 +13,7 @@ import Header from './header'
 import './layout.css'
 
 interface Props {
-  children?: any
+  children?: any // eslint-disable-line
 }
 
 const Layout = ({ children }: Props): ReactElement => {

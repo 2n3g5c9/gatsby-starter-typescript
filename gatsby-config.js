@@ -5,19 +5,6 @@ module.exports = {
     author: `Marc Molina`,
   },
   plugins: [
-    // Linting
-    {
-      resolve: 'gatsby-plugin-eslint',
-      options: {
-        test: /\.ts$|\.tsx$/,
-        exclude: /(node_modules|.cache|public)/,
-        stages: ['develop', 'build-javascript'],
-        options: {
-          emitWarning: true,
-          failOnError: false,
-        },
-      },
-    },
     // TypeScript
     `gatsby-plugin-typescript`,
     // Gatsby & React
