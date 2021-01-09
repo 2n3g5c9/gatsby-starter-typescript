@@ -6,7 +6,7 @@
   Gatsby's default starter with TypeScript support
 </h1>
 
-[![GitHub Actions](https://github.com/2n3g5c9/gatsby-starter-typescript/workflows/Automated%20Checks/badge.svg)](https://github.com/2n3g5c9/gatsby-starter-typescript/actions)
+[![GitHub Actions](https://github.com/2n3g5c9/gatsby-starter-typescript/workflows/Checks%20on%20Push/badge.svg)](https://github.com/2n3g5c9/gatsby-starter-typescript/actions)
 
 ## 🚀 Quick start
 

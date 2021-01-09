@@ -1,10 +1,7 @@
-name: Automated Checks
+name: Checks on Push
 
 on:
   push:
-    branches: [main]
-
-  pull_request:
     branches: [main]
 
 jobs:
