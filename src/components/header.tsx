@@ -1,6 +1,6 @@
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import React, { ReactElement } from 'react'
+import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 
 interface Props {
   siteTitle: string
