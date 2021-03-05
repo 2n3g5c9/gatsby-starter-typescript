@@ -8,6 +8,7 @@ module.exports = {
     // TypeScript
     `gatsby-plugin-typescript`,
     // Gatsby & React
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
