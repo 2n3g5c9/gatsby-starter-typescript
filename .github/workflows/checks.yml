@@ -1,11 +1,15 @@
-name: Checks on Push
+name: Automated Checks
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  build:
+  checks:
     name: Automated checks
     runs-on: ubuntu-latest
 
