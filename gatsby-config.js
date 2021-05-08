@@ -5,8 +5,6 @@ module.exports = {
     author: `Marc Molina`,
   },
   plugins: [
-    // TypeScript
-    `gatsby-plugin-typescript`,
     // Gatsby & React
     `gatsby-plugin-image`,
     {
