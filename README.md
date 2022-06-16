@@ -1,3 +1,5 @@
+> ⚠️ This project is no longer maintained.
+
 <div align="center">
   <img alt="gatsby-starter-typescript" src="./docs/logo.svg" width="150" />
 </div>
